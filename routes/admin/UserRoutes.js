@@ -1,6 +1,6 @@
 const router = require("express").Router();
-const valuerController = require("../../controllers/admin/UserController");
-const { auth, isAdmin } = require("../../middleware/auth.middleware");
+const valuerController = require("../../controllers/admin/UserController.js");
+const { auth, isAdmin } = require("../../middleware/auth.middleware.js");
 
 // Admin only
 router.post("/", auth, isAdmin, valuerController.createValuer);

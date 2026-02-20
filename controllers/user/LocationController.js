@@ -1,4 +1,4 @@
-const LocationTrack = require("../../models/LocationTracking");
+const LocationTrack = require("../../models/LocationTracking.js");
 
 exports.trackLocation = async (req, res) => {
   try {

@@ -1,4 +1,4 @@
-const Bank = require("../../models/Bank");
+const Bank = require("../../models/Bank.js");
 
 // Helper for BASE_URL
 const getBaseUrl = () => {

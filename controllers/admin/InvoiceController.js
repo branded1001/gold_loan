@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
-const Invoice = require("../../models/Invoice");
-const InvoiceVisit = require("../../models/InvoiceVisit");
-const Visit = require("../../models/Visit");
-const Region = require("../../models/Region");
-const RegionGST = require("../../models/RegionGST");
+const Invoice = require("../../models/Invoice.js");
+const InvoiceVisit = require("../../models/InvoiceVisit.js");
+const Visit = require("../../models/Visit.js");
+const Region = require("../../models/Region.js");
+const RegionGST = require("../../models/RegionGST.js");
 
 
 // =====================================================

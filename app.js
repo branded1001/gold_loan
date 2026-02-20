@@ -3,23 +3,23 @@ const express = require("express");
 const cors = require("cors");
 
 // Admin Routes
-const bankRoutes = require("./routes/admin/BankRoutes");
-const regionRoutes = require("./routes/admin/RegionRoutes");
-const branchRoutes = require("./routes/admin/BranchRoutes");
-const userRoutes = require("./routes/admin/UserRoutes");
-const invoiceRoutes = require("./routes/admin/InvoiceRoutes");
-const vistroutes = require("./routes/admin/visit.routes");
-const regionGSTRoutes = require("./routes/admin/regionGSTRoutes");
-const dashboardRoutes = require("./routes/admin/dashboardRoutes");
+const bankRoutes = require("./routes/admin/BankRoutes.js");
+const regionRoutes = require("./routes/admin/RegionRoutes.js");
+const branchRoutes = require("./routes/admin/BranchRoutes.js");
+const userRoutes = require("./routes/admin/UserRoutes.js");
+const invoiceRoutes = require("./routes/admin/InvoiceRoutes.js");
+const vistroutes = require("./routes/admin/visit.routes.js");
+const regionGSTRoutes = require("./routes/admin/regionGSTRoutes.js");
+const dashboardRoutes = require("./routes/admin/dashboardRoutes.js");
 
 // User App Routes
-const authRoutes = require("./routes/user/authRoutes");
-const attendanceRoutes = require("./routes/user/AttendanceRoutes");
-const locationRoutes = require("./routes/user/locationRoutes");
-const visitRoutes = require("./routes/user/VisitRoutes");
-const userDashboardRoutes = require("./routes/user/dashboardRoutes");
-const kycRoutes = require("./routes/user/kycRoutes");
-const Kycroutes = require("./routes/admin/kycRoutes");
+const authRoutes = require("./routes/user/authRoutes.js");
+const attendanceRoutes = require("./routes/user/AttendanceRoutes.js");
+const locationRoutes = require("./routes/user/locationRoutes.js");
+const visitRoutes = require("./routes/user/VisitRoutes.js");
+const userDashboardRoutes = require("./routes/user/dashboardRoutes.js");
+const kycRoutes = require("./routes/user/kycRoutes.js");
+const Kycroutes = require("./routes/admin/kycRoutes.js");
 
 const app = express();
 

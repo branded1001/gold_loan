@@ -1,4 +1,4 @@
-const Branch = require("../../models/Branch");
+const Branch = require("../../models/Branch.js");
 
 // ✅ Create Branch
 exports.createBranch = async (req, res) => {

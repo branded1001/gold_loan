@@ -1,6 +1,6 @@
 const router = require("express").Router();
-const regionController = require("../../controllers/admin/RegionController");
-const { auth, isAdmin } = require("../../middleware/auth.middleware");
+const regionController = require("../../controllers/admin/RegionController.js");
+const { auth, isAdmin } = require("../../middleware/auth.middleware.js");
 
 // Admin only routes
 router.post("/", auth, isAdmin, regionController.createRegion);

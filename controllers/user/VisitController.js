@@ -1,7 +1,7 @@
-const Visit = require("../../models/Visit");
-const Bank = require("../../models/Bank");
-const Branch = require("../../models/Branch");
-const Region = require("../../models/Region");
+const Visit = require("../../models/Visit.js");
+const Bank = require("../../models/Bank.js");
+const Branch = require("../../models/Branch.js");
+const Region = require("../../models/Region.js");
 
 
 /* =====================================================

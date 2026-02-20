@@ -1,6 +1,6 @@
 const router = require("express").Router();
-const { auth, isAdmin } = require("../../middleware/auth.middleware");
-const {getAllVisits,} = require("../../controllers/admin/visit.controller");
+const { auth, isAdmin } = require("../../middleware/auth.middleware.js");
+const {getAllVisits,} = require("../../controllers/admin/visit.controller.js");
 
 // router.post("/", auth, isAdmin, createVisit);
 

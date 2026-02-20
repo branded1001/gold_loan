@@ -1,4 +1,4 @@
-const ValuerKyc = require("../../models/ValuerKyc");
+const ValuerKyc = require("../../models/ValuerKyc.js");
 
 // Helper BASE URL
 const getBaseUrl = () => {

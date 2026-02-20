@@ -1,4 +1,4 @@
-const RegionGST = require("../../models/RegionGST");
+const RegionGST = require("../../models/RegionGST.js");
 
 
 // ============================

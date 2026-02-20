@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const Visit = require("../../models/Visit");
-const Attendance = require("../../models/Attendance");
+const Visit = require("../../models/Visit.js");
+const Attendance = require("../../models/Attendance.js");
 
 
 exports.getUserDashboard = async (req, res) => {

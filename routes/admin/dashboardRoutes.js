@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const controller = require("../../controllers/admin/dashboardController");
-const { auth, isAdmin } = require("../../middleware/auth.middleware");
+const controller = require("../../controllers/admin/dashboardController.js");
+const { auth, isAdmin } = require("../../middleware/auth.middleware.js");
 
 // GET Admin Dashboard Data
 router.get("/", auth, isAdmin, controller.getAdminDashboard);

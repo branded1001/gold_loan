@@ -1,7 +1,7 @@
-const User = require("../models/User");
+const User = require("../models/User.js");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const sendEmail = require("../config/email");
+const sendEmail = require("../config/email.js");
 
 // exports.signup = async (req, res) => {
 //   try {

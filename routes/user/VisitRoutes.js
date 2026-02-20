@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
-const visitController = require("../../controllers/user/VisitController");
-const {auth, isValuer} = require("../../middleware/auth.middleware");
-const upload = require("../../middleware/upload"); // multer
+const visitController = require("../../controllers/user/VisitController.js");
+const {auth, isValuer} = require("../../middleware/auth.middleware.js");
+const upload = require("../../middleware/upload.js"); // multer
 
 
 /* =====================================================

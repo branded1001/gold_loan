@@ -1,6 +1,6 @@
-const Region = require("../../models/Region");
-const Branch = require("../../models/Branch");
-const Invoice = require("../../models/Invoice");
+const Region = require("../../models/Region.js");
+const Branch = require("../../models/Branch.js");
+const Invoice = require("../../models/Invoice.js");
 
 
 // ✅ Create Region

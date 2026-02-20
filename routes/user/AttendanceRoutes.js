@@ -1,7 +1,7 @@
 const router = require("express").Router();
-const attendanceController = require("../../controllers/user/AttendanceController");
-const upload = require("../../middleware/upload");
-const { auth, isAdmin, isValuer } = require("../../middleware/auth.middleware");
+const attendanceController = require("../../controllers/user/AttendanceController.js");
+const upload = require("../../middleware/upload.js");
+const { auth, isAdmin, isValuer } = require("../../middleware/auth.middleware.js");
 
 // ✅ Valuer Check-In (Image required)
 router.post(

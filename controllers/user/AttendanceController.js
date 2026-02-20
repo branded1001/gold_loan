@@ -1,4 +1,4 @@
-const Attendance = require("../../models/Attendance");
+const Attendance = require("../../models/Attendance.js");
 
 // Check In
 exports.checkIn = async (req, res) => {

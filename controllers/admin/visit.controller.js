@@ -1,4 +1,4 @@
-const Visit = require("../../models/Visit");
+const Visit = require("../../models/Visit.js");
 
 
 exports.getAllVisits = async (req, res) => {

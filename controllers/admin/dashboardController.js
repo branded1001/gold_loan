@@ -1,9 +1,9 @@
-const Bank = require("../../models/Bank");
-const Region = require("../../models/Region");
-const Branch = require("../../models/Branch");
-const User = require("../../models/User");
-const Visit = require("../../models/Visit");
-const Invoice = require("../../models/Invoice");
+const Bank = require("../../models/Bank.js");
+const Region = require("../../models/Region.js");
+const Branch = require("../../models/Branch.js");
+const User = require("../../models/User.js");
+const Visit = require("../../models/Visit.js");
+const Invoice = require("../../models/Invoice.js");
 
 exports.getAdminDashboard = async (req, res) => {
   try {

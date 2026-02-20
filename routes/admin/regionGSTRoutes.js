@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const controller = require("../../controllers/admin/regionGSTController");
+const controller = require("../../controllers/admin/regionGSTController.js");
 
 // Create
 router.post("/", controller.createRegionGST);

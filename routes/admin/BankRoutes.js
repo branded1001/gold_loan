@@ -1,7 +1,7 @@
 const router = require("express").Router();
-const bankController = require("../../controllers/admin/BankController");
-const { auth, isAdmin } = require("../../middleware/auth.middleware");
-const upload = require("../../middleware/upload"); 
+const bankController = require("../../controllers/admin/BankController.js");
+const { auth, isAdmin } = require("../../middleware/auth.middleware.js");
+const upload = require("../../middleware/upload.js"); 
 
 // All routes admin only
 router.post("/", auth, isAdmin, upload.single("image"), bankController.createBank);
