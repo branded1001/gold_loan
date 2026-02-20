@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const bankController = require("../../controllers/admin/bankController");
+const bankController = require("../../controllers/admin/BankController");
 const { auth, isAdmin } = require("../../middleware/auth.middleware");
 const upload = require("../../middleware/upload"); 
 
