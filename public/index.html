@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Node Web App</title>
+</head>
+<body>
+  <h1>Welcome to Node.js Web Server</h1>
+  <p>This is a static HTML page served by Express!</p>
+
+  <button onclick="callApi()">Call API</button>
+  <p id="result"></p>
+
+  <script>
+    function callApi() {
+      fetch('/api/hello')
+        .then(res => res.json())
+        .then(data => document.getElementById('result').innerText = data.message);
+    }
+  </script>
+</body>
+</html>
